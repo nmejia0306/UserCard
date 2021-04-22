@@ -1,0 +1,56 @@
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.nav {
+    background-color: aqua;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.nav img {
+    width: 100px;
+    position: relative;
+    top: 75px;
+    left: 25px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.city img {
+    margin-left: 25px;
+    width: 10px;
+}
+
+.city img, p {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.city p{
+    margin-left: 10px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    margin-left:25px;
+}
+.help img{
+    position: absolute;
+    width: 20px;
+    margin-left: 25px;
+}
+
+.help p{
+    margin-left: 50px;
+}
